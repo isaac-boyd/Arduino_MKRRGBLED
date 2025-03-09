@@ -15,3 +15,4 @@ void RGB_LED::customColor(){
   WiFiDrv::analogWrite(26, G);
   WiFiDrv::analogWrite(27, B);
 }
+#endif 
