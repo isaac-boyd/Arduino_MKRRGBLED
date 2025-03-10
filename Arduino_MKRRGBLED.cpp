@@ -1,6 +1,6 @@
 #include <WiFiNINA.h>
 #include <utility/wifi_drv.h>
-#include "RGB_LED.h"
+#include "Arduino_MKRRGBLED.h"
 
 RGB_LED::RGB_LED() {}
 void RGB_LED::begin(){
