@@ -1,5 +1,5 @@
-#ifndef RGB_LED_H
-#define RGB_LED_H
+#ifndef MKRRGBLED_H
+#define MKRRGBLED_H
 
 #include <WiFiNINA.h>
 #include <utility/wifi_drv.h>
@@ -20,4 +20,4 @@ public:
 private:
 };
 
-#endif // RGB_LED_H
+#endif // MKRRGBLED_H
