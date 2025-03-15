@@ -16,7 +16,6 @@ public:
     void purple();
     void pink();
     void gold();
-    void slide();
     void fade(uint_8 color);
     void customColor(int R, int G, int B);
 private:
