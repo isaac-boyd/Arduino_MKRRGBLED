@@ -55,16 +55,6 @@ void RGB_LED::gold() {
     WiFiDrv::analogWrite(26, 215);
     WiFiDrv::analogWrite(27, 0);
 }
-void RGB_LED::fade() {
-int color
-for (color = 0; color <= 255; color += 1) {
-  }
-  for (color = 255; color >= 0; color -= 1) { 
-  }
-    WiFiDrv::analogWrite(25, color);
-    WiFiDrv::analogWrite(26, color);
-    WiFiDrv::analogWrite(27, color);
-}
 void RGB_LED::customColor(int R, int G, int B) {
     WiFiDrv::analogWrite(25, R);
     WiFiDrv::analogWrite(26, G);
