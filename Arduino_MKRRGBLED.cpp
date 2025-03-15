@@ -2,7 +2,7 @@
 #include <utility/wifi_drv.h>
 #include "Arduino_MKRRGBLED.h"
 
-MKRRGBLED::MKRRGBLED() {}
+Arduino_MKRRGBLED::Arduino_MKRRGBLED() {}
 void RGB_LED::begin(){
   WiFiDrv::pinMode(25, OUTPUT); //define green pin
   WiFiDrv::pinMode(26, OUTPUT); //define red pin
