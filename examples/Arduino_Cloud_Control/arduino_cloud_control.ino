@@ -15,7 +15,7 @@
 
 #include "thingProperties.h"
 #include <Arduino_MKRRGBLED.h>
-MKRRGBLED led;
+RGB_LED led;
 void setup() {
   // Initialize serial and wait for port to open:
   Serial.begin(9600);
