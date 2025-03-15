@@ -1,7 +1,7 @@
 #include <Arduino_MKRRGBLED.h>
 
 
-MKRRGBLED led;
+RGB_LED led;
 void setup() {
   led.begin();
 }
