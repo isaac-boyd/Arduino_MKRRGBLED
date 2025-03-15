@@ -1,5 +1,5 @@
-#ifndef MKRRGBLED_H
-#define MKRRGBLED_H
+#ifndef Arduino_MKRRGBLED_H
+#define Arduino_MKRRGBLED_H
 
 #include <WiFiNINA.h>
 #include <utility/wifi_drv.h>
@@ -20,4 +20,4 @@ public:
 private:
 };
 
-#endif // MKRRGBLED_H
+#endif // Arduino_MKRRGBLED_H
