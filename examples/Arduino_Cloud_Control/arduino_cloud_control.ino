@@ -7,7 +7,7 @@
   The following variables are automatically generated and updated when changes are made to the Thing
 
   CloudColoredLight color; add this as a varible in the arduino cloud things setup page.
-
+  video on how to do it: 
   Variables which are marked as READ/WRITE in the Cloud Thing will also have functions
   which are called when their values are changed from the Dashboard.
   These functions are generated with the Thing and added at the end of this sketch.
